@@ -14,7 +14,7 @@ int	ft_poll(std::vector<Listen>	&listen_fds, std::vector<Connection> &connection
 		tmp.push_back(it->pfd);
 	}
 	// 第３引数はブロックする時間 -1をセットすると永遠にブロックし続ける　0の場合はブロックせずにすぐに0を返す
-	ret = poll(tmp.data(), tmp.size(), 100);
+	ret = poll(tmp.data(), tmp.size(), 1000);
 	if (ret < 0) {
 		perror("poll");
 		return -1;

@@ -1,15 +1,16 @@
 #ifndef ECHOSERV_HPP
 # define ECHOSERV_HPP
 
-# include <sys/socket.h>
-# include <netinet/in.h>
-# include <unistd.h>
-# include <poll.h>
 # include <cstring>
 # include <iostream>
-# include <fcntl.h>
 # include <vector>
 # include <sstream>
+
+# include <unistd.h>
+# include <sys/socket.h>
+# include <netinet/in.h>
+# include <poll.h>
+# include <fcntl.h>
 
 #define BUF_SIZE 1025
 

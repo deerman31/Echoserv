@@ -37,8 +37,8 @@ int	ft_listen(int port_num) {
 		return -1;
 	}
 
-	// listen(): サーバが接続要求を待ち受けるように設定します。3はバックログ（保留中の接続のキューの最大長）です
-	if (listen(fd, 3) < 0) {
+	// listen(): サーバが接続要求を待ち受けるように設定します。第2引数はバックログ（保留中の接続のキューの最大長）です
+	if (listen(fd, SOMAXCONN) < 0) {
 		perror("listen()");
 		close(fd);
 		return -1;
