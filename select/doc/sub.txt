@@ -1,0 +1,12 @@
+mini_serv
+mini_serv.c
+Allowed functions: write, close, select, socket, accept, listen, send, recv, bind, strstr, malloc, realloc, free, calloc, bzero, atoi, sprintf, strlen, exit, strcpy, strcat, memset
+
+
+127.0.0.1の特定のポートでクライアントの接続をリッスンし、クライアント同士が会話できるようにするプログラムを書いてください。
+
+このプログラムは最初の引数として、バインドするポートを受け取る。
+引数が与えられていない場合、"引数の数が間違っています。
+プログラムが接続を受け入れる前にシステムコールがエラーを返した場合、stderrに "Fatal error "と書き、その後に"˶"と書いてステータス1で終了します。
+メモリを確保できない場合、"Fatal error "の後に"˶‾᷄๑"を書き、ステータス1で終了する。
+
