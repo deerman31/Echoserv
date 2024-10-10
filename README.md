@@ -65,9 +65,3 @@ Contributions, issues, and feature requests are welcome. Feel free to check [iss
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
-## Contact
-
-Your Name - [@yourtwitterhandle](https://twitter.com/yourtwitterhandle) - email@example.com
-
-Project Link: [https://github.com/yourusername/echoserv](https://github.com/yourusername/echoserv)
