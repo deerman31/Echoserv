@@ -56,7 +56,7 @@ This sample code is designed to provide a basic understanding of HTTP server imp
 ## Related Project
 
 For those interested in seeing a more complete HTTP server implementation, check out my full project:
-[http_server_webserv](https://github.com/deerman31/http_server_webserv)
+[NginxLite](https://github.com/deerman31/NginxLite)
 
 ## Contributing
 
